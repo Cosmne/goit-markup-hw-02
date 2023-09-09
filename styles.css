@@ -1,0 +1,11 @@
+:root {
+    --font-family-body: "Roboto" , sans-serif;
+}
+.body-style
+{font-family: var(--font-family-body) ;
+
+}
+.header-footer-style {
+    font-weight: "400"
+    ;
+}
