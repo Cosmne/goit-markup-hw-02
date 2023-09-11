@@ -7,64 +7,119 @@
     --title-color: #212121;
     --button-color: #2196F3;
     --button-effect: #188CE8;
+    --subpage-buttons: #F5F4FA;
 }
 
 /*General*/
 
-.body-style
+body
 {font-family: "roboto" , "raleway" , sans-serif;
-    font-style: "roboto";
-    color: var(--text-color) ;
-
+    font-family: "roboto";
+    color: var(--text-color);
 } 
-.logo {
-    font-style: "raleway";
-    font-weight: 700;
-    font-size: 26px;
+#logo :hover {
+    color: var(--button-color);
 }
-
+#logo {
+    font-family: "Raleway";
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        text-align: left;
+    color: var(--title-color);
+        
+}
+#web-head-foot {
+color: var(--button-color);
+} 
+.studio-foot {
+    color: var(--bg-color);
+}
 
 /*Studio*/
 /*header-footer*/
-.header-style-studio {
-    font-style: inherit;
-    font-weight: 500;
+.header-style {
+    font-family: inherit;
     font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: inherit;
+}
+.header-style a {
+    text-decoration: none;
 }
 .main-navigation {
     color: inherit;
+
 }
 .main-navigation a:link{
     color: inherit;
 }
-.main-navigation a:visited{
-    color: inherit;
-}
+
 .main-navigation a:hover{
+    color: var(--button-color);
+}
+.main-buttons {
+    color: var(--title-color);
+}
+.subpage-navigation button:hover {
+    background-color: var(--button-color);
+    color: var(--bg-color);
+}
+.subpage-navigation button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--title-color);
+    background-color: var(--subpage-buttons);
+    border: none;
+}
+.footer-style {
+    
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        font-style: normal;
+        background-color: var(--basement-color);
+}
+.footer-style a {
+    text-decoration: none;
+}
+
+
+.footer-style a:link , a:visited {
+    color: inherit
+}
+.footer-style a:hover {
     color: var(--button-color)
 }
-.footer-style-studio {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-   background-color: var(--basement-color);
+.set-adress {
+    color: var(--bg-color);
 }
 /*top-section*/
 .main-title {
-    background-color: #2F303A;
-    color: #fff;
+    background-color: var(--basement-color);
+    color: var(--bg-color);
 }
+/*Main-Button*/
 .req-serv-button {
     background-color: var(--button-color);
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    color: #fff;
+    color: var(--bg-color);
     border: none;
     display: block;
     padding: 5px 20px;
     border-radius: 4px;
 }
+
 .req-serv-button:hover {
    background-color: var(--button-effect);
 }
@@ -74,33 +129,64 @@
 /*title-text*/
 .h3-studio {
     color: var(--title-color);
-    font-weight: 700;
+    font-family: Roboto;
     font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
 }
 .h2-studio {
     color: var(--title-color);
-    font-weight: 700;
+    font-family: inherit;
     font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
 }
 .p-studio {
-    
-    font-weight: 400;
-    font-size: 14px;
+        font-family: inherit;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        text-align: left;
 }
 .team-studio {
-    color: var(--title-color);
-    font-weight: 500;
-    font-size: 16px;
+        color: var(--title-color);
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        text-align: center;
 }
 /*text*/
 .team-studio-description {
-    font-weight: 400;
-    font font-size: 16px;
-    
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        text-align: center;
 }
 
 /*Portofolio*/
 .h3-portfolio {
-    font-weight: 700;
-    font-size: 18px;
+    font-family: inherit;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.06em;
+        text-align: left;
+        color: var(--title-color);
+}
+.services span {
+        font-family: inherit;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+        text-align: left;
 }
