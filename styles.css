@@ -1,11 +1,106 @@
-:root {
-    --font-family-body: "Roboto" , sans-serif;
-}
-.body-style
-{font-family: var(--font-family-body) ;
 
+:root {
+   
+    --bg-color: #ffffff;
+    --basement-color: #2F303A;
+    --text-color: #757575;
+    --title-color: #212121;
+    --button-color: #2196F3;
+    --button-effect: #188CE8;
 }
-.header-footer-style {
-    font-weight: "400"
-    ;
+
+/*General*/
+
+.body-style
+{font-family: "roboto" , "raleway" , sans-serif;
+    font-style: "roboto";
+    color: var(--text-color) ;
+
+} 
+.logo {
+    font-style: "raleway";
+    font-weight: 700;
+    font-size: 26px;
+}
+
+
+/*Studio*/
+/*header-footer*/
+.header-style-studio {
+    font-style: inherit;
+    font-weight: 500;
+    font-size: 14px;
+}
+.main-navigation {
+    color: inherit;
+}
+.main-navigation a:link{
+    color: inherit;
+}
+.main-navigation a:visited{
+    color: inherit;
+}
+.main-navigation a:hover{
+    color: var(--button-color)
+}
+.footer-style-studio {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+   background-color: var(--basement-color);
+}
+/*top-section*/
+.main-title {
+    background-color: #2F303A;
+    color: #fff;
+}
+.req-serv-button {
+    background-color: var(--button-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    display: block;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+.req-serv-button:hover {
+   background-color: var(--button-effect);
+}
+.req-serv-button:focus {
+    background-color: var(--button-effect);
+}
+/*title-text*/
+.h3-studio {
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 14px;
+}
+.h2-studio {
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 36px;
+}
+.p-studio {
+    
+    font-weight: 400;
+    font-size: 14px;
+}
+.team-studio {
+    color: var(--title-color);
+    font-weight: 500;
+    font-size: 16px;
+}
+/*text*/
+.team-studio-description {
+    font-weight: 400;
+    font font-size: 16px;
+    
+}
+
+/*Portofolio*/
+.h3-portfolio {
+    font-weight: 700;
+    font-size: 18px;
 }
