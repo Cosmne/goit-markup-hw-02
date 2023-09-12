@@ -19,10 +19,10 @@ body {
   top: -3267px;
   left: -3897px;
 }
-#logo :hover {
+.logo :hover {
   color: var(--button-color);
 }
-#logo {
+.logo {
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
@@ -31,7 +31,7 @@ body {
   text-align: left;
   color: var(--title-color);
 }
-#web-head-foot {
+.web-head-foot {
   color: var(--button-color);
 }
 .studio-foot {
