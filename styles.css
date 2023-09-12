@@ -16,6 +16,10 @@ body
 {font-family: "roboto" , "raleway" , sans-serif;
     font-family: "roboto";
     color: var(--text-color);
+    width: 1600px ;
+    height: 2348px; 
+    top: -3267px ;
+    left: -3897px;
 } 
 #logo :hover {
     color: var(--button-color);
@@ -47,6 +51,7 @@ color: var(--button-color);
     letter-spacing: 0.02em;
     text-align: left;
     color: inherit;
+   
 }
 .header-style a {
     text-decoration: none;
@@ -144,6 +149,11 @@ color: var(--button-color);
     line-height: 42px;
     letter-spacing: 0.03em;
     text-align: center;
+}
+.services {
+        line-height: 30px;
+        letter-spacing: 0.03em;
+        text-align: left;
 }
 .p-studio {
         font-family: inherit;
