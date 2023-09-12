@@ -6,6 +6,7 @@
   --button-color: #2196f3;
   --button-effect: #188ce8;
   --subpage-buttons: #f5f4fa;
+  --logo-color: #000000;
 }
 
 /*General*/
@@ -22,6 +23,8 @@ body {
 .logo :hover {
   color: var(--button-color);
 }
+#current {color: var(--button-color);}
+
 .logo {
   font-family: "Raleway";
   font-size: 26px;
@@ -29,7 +32,10 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
   text-align: left;
-  color: var(--title-color);
+  color: var(--logo-color);
+}
+.studio-head {
+  color: var(--button-color);
 }
 .web-head-foot {
   color: var(--button-color);
@@ -61,6 +67,9 @@ body {
 .main-navigation a:link {
   color: inherit;
 }
+.main-navigation :current{
+  color: var(--button-color)
+}
 
 .main-navigation a:hover {
   color: var(--button-color);
@@ -78,6 +87,7 @@ body {
 }
 .subpage-navigation button:focus {
   background-color: var(--button-effect);
+  color: var(--bg-color);
 }
 
 .subpage-navigation button {
